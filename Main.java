@@ -15,7 +15,7 @@ public static void main(String[] args){
 
     System.out.println("arvore avl após adições");
     arvore.preOrdem(arvore.raiz);
-    System.out.println("é uma árvore avl: true = sim e false = não. resposta: "+arvore.eArvoreAvl(arvore.raiz)); //sem tempo para usar resultado boolean e gerar a resposta automático
+    System.out.println("é uma árvore avl: true = sim e false = não. resposta: "+arvore.eArvoreAvl(arvore.raiz));
     
 
     int numerosRemovidos = 0;
